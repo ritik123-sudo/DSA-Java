@@ -272,6 +272,36 @@ public class BinaryTree {
 
     }
 
+    class Solution{
+        public boolean isIdentical(Node root,Node subRoot){
+            if(root==null&&subRoot==null){
+                return true;
+            }
+            if(root==null||subRoot==null){
+                return false;
+            }
+            if(root.data==subRoot.data){
+                return isIdentical(root.left, subRoot.left)&&isIdentical(root.right, subRoot.right);
+            }
+            return false;
+        }
+        public boolean isSubtree(Node root,Node subRoot){
+            
+            if(subRoot==null){
+                return true;
+            }
+            if(root==null){
+                return false;
+            }
+            if(root.data==subRoot.data){
+                if(isIdentical(root,subRoot)){
+                    return true;
+                }
+            }
+            return isSubtree(root.left, subRoot)||isSubtree(root.right, subRoot);
+        }
+    }
+
 
     public static void main(String[] args) {
         int nodes[]={1,2,4,-1,-1,5,-1,-1,3,-1,6,-1,-1};
