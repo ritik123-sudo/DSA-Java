@@ -1,0 +1,24 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        int res=n;
+        for(int p=2;p*p<=n;p++){
+            if(n%p==0){
+                while(n%p==0){
+                    n=n/p;
+                }
+            }
+            res=res-res/p;
+        }
+        if(n>1){
+            res=res-res/n;
+        }
+        System.out.println("No of Coprime numbers upto Given number is : " + res);
+    sc.close();
+    }
+    
+}
