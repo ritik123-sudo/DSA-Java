@@ -224,6 +224,7 @@ public class BinaryTree {
         }
     }
 
+
     // Method 2: Height of tree
     public static int HeightTree(Node root){
         if(root==null){
@@ -250,6 +251,41 @@ public class BinaryTree {
             this.diam=diam;
         }
     }
+
+    // Sum of node at kth level
+    public static void sum_at_kth_level(Node root){
+        if(root==null){
+            return ;
+        }
+        Queue<Node> q=new LinkedList<>();
+        q.add(root);
+        int sum=root.data;
+        q.add(null);
+
+        while(!q.isEmpty()){
+            Node currNode=q.remove();
+            if(currNode==null){
+                System.out.println()
+                
+                if(q.isEmpty()){
+                    
+                    break;
+                }else{
+                    q.add(null);
+                }
+            }else{
+                System.out.print(currNode.data+" ");
+                if(currNode.left!=null){
+                    q.add(currNode.left);
+                }
+                if(currNode.right!=null){
+                    q.add(currNode.right);
+                }
+            }
+        }
+    }
+
+    
 
     // Diameter of Tree(Time Complexity=O(n))
     public static TreeInfo DiameterTree(Node root){
