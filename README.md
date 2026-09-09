@@ -83,7 +83,9 @@ This repository is continuously updated as I solve more DSA problems and learn n
 **Ritik Shankar**
 
 GitHub: https://github.com/ritik123-sudo
+
 LeetCode : https://leetcode.com/u/ritik23mei1/
+
 GeeksforGeeks : https://www.geeksforgeeks.org/profile/shankarrfv73
 
 ---
