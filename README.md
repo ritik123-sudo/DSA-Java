@@ -53,7 +53,7 @@ For each problem, I focus on:
 
 ## ⚙️ Complexity Analysis
 
-Solutions may include:
+While solving problems, I consider:
 
 - Time Complexity
 - Space Complexity
@@ -64,13 +64,13 @@ This repository is continuously updated as I solve more DSA problems and learn n
 
 ## 🚀 Future Plans
 
-- Add more LeetCode problems
-- Add more GeeksforGeeks problems
-- Cover advanced data structures
-- Add more Dynamic Programming problems
-- Add advanced Graph algorithms
+- Practice more LeetCode problems
+- Practice more GeeksforGeeks problems
+- Strengthen advanced data structures
+- Practice more Dynamic Programming problems
+- Practice advanced Graph algorithms
 - Improve solution explanations
-- Add optimized approaches where applicable
+- Explore more optimized approaches
 
 ## 🛠️ Tools & Technologies
 
@@ -82,12 +82,10 @@ This repository is continuously updated as I solve more DSA problems and learn n
 
 **Ritik Shankar**
 
-GitHub: https://github.com/ritik123-sudo
-
-LeetCode : https://leetcode.com/u/ritik23mei1/
-
-GeeksforGeeks : https://www.geeksforgeeks.org/profile/shankarrfv73
+- GitHub: [ritik123-sudo](https://github.com/ritik123-sudo)
+- LeetCode: [ritik23mei1](https://leetcode.com/u/ritik23mei1/)
+- GeeksforGeeks: [shankarrfv73](https://www.geeksforgeeks.org/profile/shankarrfv73)
 
 ---
 
-⭐ This repository is a record of my journey in learning and mastering Data Structures and Algorithms using Java.
+⭐ This repository is a record of my journey in learning and improving Data Structures and Algorithms using Java.
